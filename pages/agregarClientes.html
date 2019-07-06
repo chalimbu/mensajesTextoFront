@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clientes AllClean</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="../javascript/clientes.js"></script>
+</head>
+
+<body onLoad="cargarClientes()">
+
+    <h1>Clientes</h1>
+    <form name="agregarclientes">
+        <table width="200" border="0">
+            <tr>
+                <h2>nombre</h2><input name="nombre" type="text" class="Input" value="" size="20" /> </tr>
+            <tr>
+                <h2>numero</h2><input name="numero" type="text" class="Input" value="" size="20" /></tr>
+            <tr><input value="Ingresar" target="_parent" onclick="agregarCliente()" type="button" class="boton" /></tr>
+        </table>
+    </form>
+    <div id="resultado"></div>
+    <br>
+    <div id="tablaclientes"></div>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clientes AllClean</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="../javascript/mensajes.js"></script>
+</head>
+
+<body>
+
+    <h1>Enviar Mensajes</h1>
+    <form name="enviarmensaje">
+        <table width="200" border="0">
+            <tr>
+                <h2>Mensaje</h2><textarea name="mensaje" rows="10" cols="30">Ingrese el mensaje a enviar...</textarea></tr>
+            <tr>
+                <tr><input value="Enviar" target="_parent" onclick="enviarMensaje()" type="button" class="boton" /></tr>
+        </table>
+    </form>
+    <div id="resultado"></div>
+    <br>
+
+</body>
+
+</html>
